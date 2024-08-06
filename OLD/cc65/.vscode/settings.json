@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "stdint.h": "c",
+        "stdlib.h": "c",
+        "fixedptc.h": "c",
+        "xmemory": "c",
+        "stdgraphics.c": "cpp",
+        "cc65.h": "c",
+        "unistd.h": "c",
+        "vdp.c": "cpp",
+        "initializer_list": "c",
+        "xutility": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}

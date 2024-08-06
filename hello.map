@@ -1,0 +1,335 @@
+Modules list:
+-------------
+crt0.o:
+    STARTUP           Offs=000000  Size=00001C  Align=00001  Fill=0000
+fs.o:
+    CODE              Offs=000000  Size=000188  Align=00001  Fill=0000
+    RODATA            Offs=000000  Size=000006  Align=00001  Fill=0000
+    BSS               Offs=000000  Size=000034  Align=00001  Fill=0000
+main.o:
+    CODE              Offs=000188  Size=000167  Align=00001  Fill=0000
+    RODATA            Offs=000006  Size=00002F  Align=00001  Fill=0000
+    BSS               Offs=000034  Size=000400  Align=00001  Fill=0000
+    DATA              Offs=000000  Size=000002  Align=00001  Fill=0000
+mylib.o:
+    CODE              Offs=0002EF  Size=000066  Align=00001  Fill=0000
+mylibC.o:
+    CODE              Offs=000355  Size=00003B  Align=00001  Fill=0000
+mymem.o:
+SDSPI.o:
+    CODE              Offs=000390  Size=00039F  Align=00001  Fill=0000
+    BSS               Offs=000434  Size=000004  Align=00001  Fill=0000
+lib/none.lib(addeqsp.o):
+    CODE              Offs=00072F  Size=000011  Align=00001  Fill=0000
+lib/none.lib(addysp.o):
+    CODE              Offs=000740  Size=00000E  Align=00001  Fill=0000
+lib/none.lib(aslax1.o):
+    CODE              Offs=00074E  Size=000008  Align=00001  Fill=0000
+lib/none.lib(asleax3.o):
+    CODE              Offs=000756  Size=00001A  Align=00001  Fill=0000
+lib/none.lib(axlong.o):
+    CODE              Offs=000770  Size=00000D  Align=00001  Fill=0000
+lib/none.lib(condes.o):
+    CODE              Offs=00077D  Size=00000C  Align=00001  Fill=0000
+    DATA              Offs=000002  Size=000025  Align=00001  Fill=0000
+    ONCE              Offs=000000  Size=00000C  Align=00001  Fill=0000
+lib/none.lib(copydata.o):
+    CODE              Offs=000789  Size=00002D  Align=00001  Fill=0000
+lib/none.lib(decsp4.o):
+    CODE              Offs=0007B6  Size=00000D  Align=00001  Fill=0000
+lib/none.lib(decsp5.o):
+    CODE              Offs=0007C3  Size=00000D  Align=00001  Fill=0000
+lib/none.lib(incsp4.o):
+    CODE              Offs=0007D0  Size=000005  Align=00001  Fill=0000
+lib/none.lib(incsp5.o):
+    CODE              Offs=0007D5  Size=000005  Align=00001  Fill=0000
+lib/none.lib(ldaxsp.o):
+    CODE              Offs=0007DA  Size=000009  Align=00001  Fill=0000
+lib/none.lib(ldeaxysp.o):
+    CODE              Offs=0007E3  Size=000013  Align=00001  Fill=0000
+lib/none.lib(lpush.o):
+    CODE              Offs=0007F6  Size=000021  Align=00001  Fill=0000
+lib/none.lib(or.o):
+    CODE              Offs=000817  Size=000012  Align=00001  Fill=0000
+lib/none.lib(popa.o):
+    CODE              Offs=000829  Size=00000C  Align=00001  Fill=0000
+lib/none.lib(pusha.o):
+    CODE              Offs=000835  Size=000016  Align=00001  Fill=0000
+lib/none.lib(pushax.o):
+    CODE              Offs=00084B  Size=00001A  Align=00001  Fill=0000
+lib/none.lib(staxsp.o):
+    CODE              Offs=000865  Size=00000B  Align=00001  Fill=0000
+lib/none.lib(zerobss.o):
+    CODE              Offs=000870  Size=000023  Align=00001  Fill=0000
+lib/none.lib(zeropage.o):
+    ZEROPAGE          Offs=000000  Size=00001A  Align=00001  Fill=0000
+
+
+Segment list:
+-------------
+Name                   Start     End    Size  Align
+----------------------------------------------------
+ZEROPAGE              000000  000019  00001A  00001
+STARTUP               000700  00071B  00001C  00001
+CODE                  00071C  000FAE  000893  00001
+RODATA                000FAF  000FE3  000035  00001
+DATA                  000FE4  00100A  000027  00001
+ONCE                  00100B  001016  00000C  00001
+BSS                   001017  00144E  000438  00001
+
+
+Exports list by name:
+---------------------
+_SDSPI_readMultContinue   000D39 RLA    _SDSPI_readMultEnd        000D7B RLA    
+_SDSPI_readMultStart      000CFC RLA    _SDSPI_readSector         000AB7 RLA    
+_SDSPI_writeMultContinue  000DD7 RLA    _SDSPI_writeMultEnd       000E37 RLA    
+_SDSPI_writeMultStart     000D97 RLA    __BSS_RUN__               001017 RLA    
+__BSS_SIZE__              000438 REA    __CONSTRUCTOR_COUNT__     000000 REA    
+__CONSTRUCTOR_TABLE__     00071C RLA    __DATA_LOAD__             000FE4 RLA    
+__DATA_RUN__              000FE4 RLA    __DATA_SIZE__             000027 REA    
+__DESTRUCTOR_COUNT__      000000 REA    __DESTRUCTOR_TABLE__      00071C RLA    
+__RAM_SIZE__              007700 REA    __RAM_START__             000700 RLA    
+__STARTUP__               000001 REA    _getch                    000A29 RLA    
+_initACIA                 000A0B RLA    _main                     0008A5 RLA    
+_printHex32               000882 RLA    _print_hex                000A3C RLA    
+_putch                    000A19 RLA    _puts                     000A71 RLA    
+addeq0sp                  000E4B RLA    addeqysp                  000E4D RLA    
+addysp                    000E5D RLA    addysp1                   000E5C RLA    
+aslax1                    000E6A RLA    axlong                    000E8C RLA    
+copydata                  000EA5 RLA    decsp4                    000ED2 RLA    
+decsp5                    000EDF RLA    donelib                   000E99 RLA    
+incsp4                    000EEC RLA    incsp5                    000EF1 RLA    
+initlib                   00100B RLA    ldax0sp                   000EF6 RLA    
+ldaxysp                   000EF8 RLA    ldeax0sp                  000EFF RLA    
+ldeaxysp                  000F01 RLA    popa                      000F45 RLA    
+ptr1                      000008 RLZ    ptr2                      00000A RLZ    
+push0                     000F67 RLA    push0ax                   000F15 RLA    
+pusha                     000F55 RLA    pusha0                    000F69 RLA    
+pushax                    000F6B RLA    pusheax                   000F1B RLA    
+shleax3                   000E72 RLA    sp                        000000 RLZ    
+sreg                      000002 RLZ    stax0sp                   000F81 RLA    
+staxysp                   000F83 RLA    tmp1                      000010 RLZ    
+tmp2                      000011 RLZ    tosorax                   000F35 RLA    
+zerobss                   000F8C RLA    
+
+
+Exports list by value:
+----------------------
+__CONSTRUCTOR_COUNT__     000000 REA    sp                        000000 RLZ    
+__DESTRUCTOR_COUNT__      000000 REA    __STARTUP__               000001 REA    
+sreg                      000002 RLZ    ptr1                      000008 RLZ    
+ptr2                      00000A RLZ    tmp1                      000010 RLZ    
+tmp2                      000011 RLZ    __DATA_SIZE__             000027 REA    
+__BSS_SIZE__              000438 REA    __RAM_START__             000700 RLA    
+__CONSTRUCTOR_TABLE__     00071C RLA    __DESTRUCTOR_TABLE__      00071C RLA    
+_printHex32               000882 RLA    _main                     0008A5 RLA    
+_initACIA                 000A0B RLA    _putch                    000A19 RLA    
+_getch                    000A29 RLA    _print_hex                000A3C RLA    
+_puts                     000A71 RLA    _SDSPI_readSector         000AB7 RLA    
+_SDSPI_readMultStart      000CFC RLA    _SDSPI_readMultContinue   000D39 RLA    
+_SDSPI_readMultEnd        000D7B RLA    _SDSPI_writeMultStart     000D97 RLA    
+_SDSPI_writeMultContinue  000DD7 RLA    _SDSPI_writeMultEnd       000E37 RLA    
+addeq0sp                  000E4B RLA    addeqysp                  000E4D RLA    
+addysp1                   000E5C RLA    addysp                    000E5D RLA    
+aslax1                    000E6A RLA    shleax3                   000E72 RLA    
+axlong                    000E8C RLA    donelib                   000E99 RLA    
+copydata                  000EA5 RLA    decsp4                    000ED2 RLA    
+decsp5                    000EDF RLA    incsp4                    000EEC RLA    
+incsp5                    000EF1 RLA    ldax0sp                   000EF6 RLA    
+ldaxysp                   000EF8 RLA    ldeax0sp                  000EFF RLA    
+ldeaxysp                  000F01 RLA    push0ax                   000F15 RLA    
+pusheax                   000F1B RLA    tosorax                   000F35 RLA    
+popa                      000F45 RLA    pusha                     000F55 RLA    
+push0                     000F67 RLA    pusha0                    000F69 RLA    
+pushax                    000F6B RLA    stax0sp                   000F81 RLA    
+staxysp                   000F83 RLA    zerobss                   000F8C RLA    
+__DATA_RUN__              000FE4 RLA    __DATA_LOAD__             000FE4 RLA    
+initlib                   00100B RLA    __BSS_RUN__               001017 RLA    
+__RAM_SIZE__              007700 REA    
+
+
+Imports list:
+-------------
+_SDSPI_readMultContinue (SDSPI.o):
+    fs.o                      D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\fs.asm:20
+_SDSPI_readMultEnd (SDSPI.o):
+    fs.o                      D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\fs.asm:21
+_SDSPI_readMultStart (SDSPI.o):
+    fs.o                      D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\fs.asm:19
+_SDSPI_readSector (SDSPI.o):
+    main.o                    D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\main.asm:19
+_SDSPI_writeMultContinue (SDSPI.o):
+    main.o                    D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\main.asm:21
+    fs.o                      D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\fs.asm:23
+_SDSPI_writeMultEnd (SDSPI.o):
+    main.o                    D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\main.asm:22
+    fs.o                      D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\fs.asm:24
+_SDSPI_writeMultStart (SDSPI.o):
+    main.o                    D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\main.asm:20
+    fs.o                      D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\fs.asm:22
+__BSS_RUN__ ([linker generated]):
+    zerobss.o                 common/zerobss.s:8
+__BSS_SIZE__ ([linker generated]):
+    zerobss.o                 common/zerobss.s:8
+__CONSTRUCTOR_COUNT__ ([linker generated]):
+    condes.o                  runtime/condes.s:18
+__CONSTRUCTOR_TABLE__ ([linker generated]):
+    condes.o                  runtime/condes.s:18
+__DATA_LOAD__ ([linker generated]):
+    copydata.o                common/copydata.s:8
+__DATA_RUN__ ([linker generated]):
+    copydata.o                common/copydata.s:8
+__DATA_SIZE__ ([linker generated]):
+    copydata.o                common/copydata.s:8
+__DESTRUCTOR_COUNT__ ([linker generated]):
+    condes.o                  runtime/condes.s:19
+__DESTRUCTOR_TABLE__ ([linker generated]):
+    condes.o                  runtime/condes.s:19
+__RAM_SIZE__ ([linker generated]):
+    crt0.o                    D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\crt0.asm:11
+__RAM_START__ ([linker generated]):
+    crt0.o                    D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\crt0.asm:11
+__STARTUP__ (crt0.o):
+    main.o                    D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\main.asm:13
+_getch (mylib.o):
+    main.o                    D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\main.asm:16
+_initACIA (mylib.o):
+    main.o                    D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\main.asm:14
+_main (main.o):
+    crt0.o                    D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\crt0.asm:8
+_printHex32 (fs.o):
+    main.o                    D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\main.asm:23
+_print_hex (mylib.o):
+    SDSPI.o                   D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\SDSPI.asm:39
+    main.o                    D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\main.asm:18
+    fs.o                      D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\fs.asm:18
+_putch (mylib.o):
+    SDSPI.o                   D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\SDSPI.asm:39
+    mylibC.o                  D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\mylibC.asm:13
+    main.o                    D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\main.asm:15
+_puts (mylibC.o):
+    main.o                    D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\main.asm:17
+    fs.o                      D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\fs.asm:25
+addeq0sp (addeqsp.o):
+    mylibC.o                  D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\mylibC.asm:57
+    main.o                    D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\main.asm:251
+    fs.o                      D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\fs.asm:282
+    fs.o                      D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\fs.asm:282
+addeqysp (addeqsp.o):
+    main.o                    D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\main.asm:251
+addysp (addysp.o):
+    incsp5.o                  runtime/incsp5.s:8
+    incsp4.o                  runtime/incsp4.s:8
+    fs.o                      D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\fs.asm:282
+    fs.o                      D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\fs.asm:282
+addysp1 (addysp.o):
+    or.o                      runtime/or.s:9
+aslax1 (aslax1.o):
+    fs.o                      D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\fs.asm:282
+    fs.o                      D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\fs.asm:282
+axlong (axlong.o):
+    main.o                    D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\main.asm:251
+copydata (copydata.o):
+    crt0.o                    D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\crt0.asm:13
+decsp4 (decsp4.o):
+    lpush.o                   runtime/lpush.s:12
+decsp5 (decsp5.o):
+    main.o                    D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\main.asm:251
+donelib (condes.o):
+    crt0.o                    D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\crt0.asm:13
+incsp4 (incsp4.o):
+    mylibC.o                  D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\mylibC.asm:57
+    fs.o                      D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\fs.asm:282
+incsp5 (incsp5.o):
+    main.o                    D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\main.asm:251
+initlib (condes.o):
+    crt0.o                    D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\crt0.asm:13
+ldax0sp (ldaxsp.o):
+    mylibC.o                  D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\mylibC.asm:57
+    main.o                    D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\main.asm:251
+    fs.o                      D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\fs.asm:282
+    fs.o                      D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\fs.asm:282
+ldaxysp (ldaxsp.o):
+    main.o                    D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\main.asm:251
+ldeax0sp (ldeaxysp.o):
+    fs.o                      D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\fs.asm:282
+ldeaxysp (ldeaxysp.o):
+    fs.o                      D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\fs.asm:282
+    fs.o                      D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\fs.asm:282
+popa (popa.o):
+    SDSPI.o                   D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\SDSPI.asm:39
+ptr1 (zeropage.o):
+    zerobss.o                 common/zerobss.s:9
+    copydata.o                common/copydata.s:9
+    SDSPI.o                   D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\SDSPI.asm:37
+    mylibC.o                  D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\mylibC.asm:11
+    main.o                    D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\main.asm:11
+ptr2 (zeropage.o):
+    copydata.o                common/copydata.s:9
+push0 (pushax.o):
+    mylibC.o                  D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\mylibC.asm:57
+    fs.o                      D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\fs.asm:282
+    fs.o                      D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\fs.asm:282
+push0ax (lpush.o):
+    main.o                    D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\main.asm:251
+pusha (pusha.o):
+    fs.o                      D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\fs.asm:282
+    fs.o                      D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\fs.asm:282
+pusha0 (pushax.o):
+    fs.o                      D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\fs.asm:282
+    fs.o                      D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\fs.asm:282
+pushax (pushax.o):
+    mylibC.o                  D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\mylibC.asm:57
+    fs.o                      D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\fs.asm:282
+    fs.o                      D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\fs.asm:282
+pusheax (lpush.o):
+    main.o                    D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\main.asm:251
+    fs.o                      D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\fs.asm:282
+shleax3 (asleax3.o):
+    fs.o                      D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\fs.asm:282
+    fs.o                      D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\fs.asm:282
+sp (zeropage.o):
+    decsp4.o                  runtime/decsp4.s:8
+    staxsp.o                  runtime/staxsp.s:8
+    pushax.o                  runtime/pushax.s:8
+    pusha.o                   runtime/pusha.s:8
+    popa.o                    runtime/popa.s:8
+    or.o                      runtime/or.s:10
+    lpush.o                   runtime/lpush.s:13
+    ldeaxysp.o                runtime/ldeaxysp.s:12
+    ldaxsp.o                  runtime/ldaxsp.s:8
+    decsp5.o                  runtime/decsp5.s:8
+    addysp.o                  runtime/addysp.s:8
+    addeqsp.o                 runtime/addeqsp.s:8
+    mylibC.o                  D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\mylibC.asm:10
+    main.o                    D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\main.asm:10
+    fs.o                      D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\fs.asm:10
+    crt0.o                    D:\cc65-win32\asminc/zeropage.inc:11
+sreg (zeropage.o):
+    lpush.o                   runtime/lpush.s:13
+    ldeaxysp.o                runtime/ldeaxysp.s:12
+    axlong.o                  runtime/axlong.s:9
+    asleax3.o                 runtime/asleax3.s:8
+    SDSPI.o                   D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\SDSPI.asm:37
+    main.o                    D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\main.asm:10
+    fs.o                      D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\fs.asm:10
+stax0sp (staxsp.o):
+    main.o                    D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\main.asm:251
+    fs.o                      D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\fs.asm:282
+    fs.o                      D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\fs.asm:282
+staxysp (staxsp.o):
+    main.o                    D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\main.asm:251
+tmp1 (zeropage.o):
+    or.o                      runtime/or.s:10
+    copydata.o                common/copydata.s:9
+    asleax3.o                 runtime/asleax3.s:8
+    aslax1.o                  runtime/aslax1.s:8
+    SDSPI.o                   D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\SDSPI.asm:37
+tmp2 (zeropage.o):
+    SDSPI.o                   D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\SDSPI.asm:37
+tosorax (or.o):
+    fs.o                      D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\fs.asm:282
+    fs.o                      D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\fs.asm:282
+zerobss (zerobss.o):
+    crt0.o                    D:\Desktop\asemmbler\SD program\C test new\custom target ers -cc65\bin\asm\crt0.asm:13
+

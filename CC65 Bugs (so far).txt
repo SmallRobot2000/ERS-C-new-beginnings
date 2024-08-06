@@ -1,0 +1,22 @@
+empty functions without -Oi optimization crashes
+functions with local varables unused(set and not set in int case) crashes
+examples:
+void foo()      //crashes
+{
+    int i;  
+}
+void foo()      //crashes
+{
+    int i = 0;  
+}
+void foo()      //crashes
+{
+    char c;  
+}
+void foo()      //works (idk why)
+{
+    char c = 0;  
+}
+what to do for working functions:
+USE ALL LCAL VARIABLES EVEN IF COMPILER DOESNT THROW AN WARNING
+DONT MAKE EMPTY functions

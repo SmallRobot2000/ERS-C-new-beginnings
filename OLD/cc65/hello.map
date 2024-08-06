@@ -1,0 +1,1302 @@
+Modules list:
+-------------
+wait.o:
+    CODE              Offs=000000  Size=000004  Align=00001  Fill=0000
+ps2.o:
+    CODE              Offs=000004  Size=0002C6  Align=00001  Fill=0000
+floppy.o:
+    CODE              Offs=0002CA  Size=00006A  Align=00001  Fill=0000
+hello.o:
+    CODE              Offs=000334  Size=0032C2  Align=00001  Fill=0000
+    RODATA            Offs=000000  Size=00018B  Align=00001  Fill=0000
+    BSS               Offs=000000  Size=0020E3  Align=00001  Fill=0000
+    DATA              Offs=000000  Size=00092C  Align=00001  Fill=0000
+FixforFixMath.o:
+    CODE              Offs=0035F6  Size=00014A  Align=00001  Fill=0000
+128k.o:
+    CODE              Offs=003740  Size=00003F  Align=00001  Fill=0000
+VDP.o:
+    CODE              Offs=00377F  Size=0000A5  Align=00001  Fill=0000
+none.lib(_hextab.o):
+    RODATA            Offs=00018B  Size=000010  Align=00001  Fill=0000
+none.lib(_longminstr.o):
+    RODATA            Offs=00019B  Size=00000C  Align=00001  Fill=0000
+none.lib(add.o):
+    CODE              Offs=003824  Size=00001C  Align=00001  Fill=0000
+none.lib(addeqsp.o):
+    CODE              Offs=003840  Size=000011  Align=00001  Fill=0000
+none.lib(addysp.o):
+    CODE              Offs=003851  Size=00000E  Align=00001  Fill=0000
+none.lib(aslax1.o):
+    CODE              Offs=00385F  Size=000008  Align=00001  Fill=0000
+none.lib(aslax3.o):
+    CODE              Offs=003867  Size=00000E  Align=00001  Fill=0000
+none.lib(asr.o):
+    CODE              Offs=003875  Size=00003C  Align=00001  Fill=0000
+none.lib(axlong.o):
+    CODE              Offs=0038B1  Size=00000D  Align=00001  Fill=0000
+none.lib(bneg.o):
+    CODE              Offs=0038BE  Size=00000E  Align=00001  Fill=0000
+none.lib(condes.o):
+    CODE              Offs=0038CC  Size=00000C  Align=00001  Fill=0000
+    DATA              Offs=00092C  Size=000025  Align=00001  Fill=0000
+    ONCE              Offs=000000  Size=00000C  Align=00001  Fill=0000
+none.lib(copydata.o):
+    CODE              Offs=0038D8  Size=00002D  Align=00001  Fill=0000
+none.lib(crt0.o):
+    STARTUP           Offs=000000  Size=00001C  Align=00001  Fill=0000
+none.lib(decax1.o):
+    CODE              Offs=003905  Size=000007  Align=00001  Fill=0000
+none.lib(decaxy.o):
+    CODE              Offs=00390C  Size=000009  Align=00001  Fill=0000
+none.lib(decsp1.o):
+    CODE              Offs=003915  Size=000009  Align=00001  Fill=0000
+none.lib(decsp2.o):
+    CODE              Offs=00391E  Size=00000D  Align=00001  Fill=0000
+none.lib(decsp3.o):
+    CODE              Offs=00392B  Size=00000D  Align=00001  Fill=0000
+none.lib(decsp4.o):
+    CODE              Offs=003938  Size=00000D  Align=00001  Fill=0000
+none.lib(decsp6.o):
+    CODE              Offs=003945  Size=00000D  Align=00001  Fill=0000
+none.lib(decsp7.o):
+    CODE              Offs=003952  Size=00000D  Align=00001  Fill=0000
+none.lib(div.o):
+    CODE              Offs=00395F  Size=000015  Align=00001  Fill=0000
+none.lib(icmp.o):
+    CODE              Offs=003974  Size=00002E  Align=00001  Fill=0000
+none.lib(incax1.o):
+    CODE              Offs=0039A2  Size=000007  Align=00001  Fill=0000
+none.lib(incax2.o):
+    CODE              Offs=0039A9  Size=000007  Align=00001  Fill=0000
+none.lib(incax3.o):
+    CODE              Offs=0039B0  Size=000005  Align=00001  Fill=0000
+none.lib(incax5.o):
+    CODE              Offs=0039B5  Size=000005  Align=00001  Fill=0000
+none.lib(incaxy.o):
+    CODE              Offs=0039BA  Size=00000B  Align=00001  Fill=0000
+none.lib(incsp2.o):
+    CODE              Offs=0039C5  Size=000016  Align=00001  Fill=0000
+none.lib(incsp3.o):
+    CODE              Offs=0039DB  Size=000005  Align=00001  Fill=0000
+none.lib(incsp4.o):
+    CODE              Offs=0039E0  Size=000005  Align=00001  Fill=0000
+none.lib(incsp5.o):
+    CODE              Offs=0039E5  Size=000005  Align=00001  Fill=0000
+none.lib(incsp6.o):
+    CODE              Offs=0039EA  Size=000005  Align=00001  Fill=0000
+none.lib(incsp7.o):
+    CODE              Offs=0039EF  Size=000005  Align=00001  Fill=0000
+none.lib(incsp8.o):
+    CODE              Offs=0039F4  Size=000005  Align=00001  Fill=0000
+none.lib(itoa.o):
+    CODE              Offs=0039F9  Size=000094  Align=00001  Fill=0000
+    RODATA            Offs=0001A7  Size=000007  Align=00001  Fill=0000
+none.lib(laddeq.o):
+    CODE              Offs=003A8D  Size=00002D  Align=00001  Fill=0000
+none.lib(laddeqsp.o):
+    CODE              Offs=003ABA  Size=000023  Align=00001  Fill=0000
+none.lib(lcmp.o):
+    CODE              Offs=003ADD  Size=00003B  Align=00001  Fill=0000
+none.lib(ldaxi.o):
+    CODE              Offs=003B18  Size=00000D  Align=00001  Fill=0000
+none.lib(ldaxsp.o):
+    CODE              Offs=003B25  Size=000009  Align=00001  Fill=0000
+none.lib(ldeaxysp.o):
+    CODE              Offs=003B2E  Size=000013  Align=00001  Fill=0000
+none.lib(ldiv.o):
+    CODE              Offs=003B41  Size=00001C  Align=00001  Fill=0000
+none.lib(leaaxsp.o):
+    CODE              Offs=003B5D  Size=00000C  Align=00001  Fill=0000
+none.lib(linc.o):
+    CODE              Offs=003B69  Size=000011  Align=00001  Fill=0000
+none.lib(lmul.o):
+    CODE              Offs=003B7A  Size=00005C  Align=00001  Fill=0000
+none.lib(lneg.o):
+    CODE              Offs=003BD6  Size=00001E  Align=00001  Fill=0000
+none.lib(lpush.o):
+    CODE              Offs=003BF4  Size=000021  Align=00001  Fill=0000
+none.lib(lshelp.o):
+    CODE              Offs=003C15  Size=000052  Align=00001  Fill=0000
+none.lib(ltoa.o):
+    CODE              Offs=003C67  Size=000095  Align=00001  Fill=0000
+none.lib(ludiv.o):
+    CODE              Offs=003CFC  Size=00007A  Align=00001  Fill=0000
+none.lib(makebool.o):
+    CODE              Offs=003D76  Size=00002C  Align=00001  Fill=0000
+none.lib(mod.o):
+    CODE              Offs=003DA2  Size=000011  Align=00001  Fill=0000
+none.lib(mul.o):
+    CODE              Offs=003DB3  Size=000045  Align=00001  Fill=0000
+none.lib(mul8.o):
+    CODE              Offs=003DF8  Size=00003A  Align=00001  Fill=0000
+none.lib(negabs.o):
+    CODE              Offs=003E32  Size=000012  Align=00001  Fill=0000
+none.lib(popa.o):
+    CODE              Offs=003E44  Size=00000C  Align=00001  Fill=0000
+none.lib(popptr1.o):
+    CODE              Offs=003E50  Size=00000E  Align=00001  Fill=0000
+none.lib(pusha.o):
+    CODE              Offs=003E5E  Size=000016  Align=00001  Fill=0000
+none.lib(pushax.o):
+    CODE              Offs=003E74  Size=00001A  Align=00001  Fill=0000
+none.lib(pushw.o):
+    CODE              Offs=003E8E  Size=00000F  Align=00001  Fill=0000
+none.lib(pushwsp.o):
+    CODE              Offs=003E9D  Size=00001C  Align=00001  Fill=0000
+none.lib(regswap2.o):
+    CODE              Offs=003EB9  Size=000016  Align=00001  Fill=0000
+none.lib(shelp.o):
+    CODE              Offs=003ECF  Size=000020  Align=00001  Fill=0000
+none.lib(shl.o):
+    CODE              Offs=003EEF  Size=000033  Align=00001  Fill=0000
+none.lib(shrax3.o):
+    CODE              Offs=003F22  Size=00000E  Align=00001  Fill=0000
+none.lib(staspidx.o):
+    CODE              Offs=003F30  Size=000016  Align=00001  Fill=0000
+none.lib(staxsp.o):
+    CODE              Offs=003F46  Size=00000B  Align=00001  Fill=0000
+none.lib(strcat.o):
+    CODE              Offs=003F51  Size=000031  Align=00001  Fill=0000
+none.lib(strchr.o):
+    CODE              Offs=003F82  Size=000027  Align=00001  Fill=0000
+none.lib(strcmp.o):
+    CODE              Offs=003FA9  Size=000021  Align=00001  Fill=0000
+none.lib(strcpy.o):
+    CODE              Offs=003FCA  Size=00001F  Align=00001  Fill=0000
+none.lib(strtok.o):
+    CODE              Offs=003FE9  Size=0000CB  Align=00001  Fill=0000
+    DATA              Offs=000951  Size=000002  Align=00001  Fill=0000
+none.lib(sub.o):
+    CODE              Offs=0040B4  Size=000015  Align=00001  Fill=0000
+none.lib(subeqsp.o):
+    CODE              Offs=0040C9  Size=000015  Align=00001  Fill=0000
+none.lib(subysp.o):
+    CODE              Offs=0040DE  Size=00000D  Align=00001  Fill=0000
+none.lib(toslong.o):
+    CODE              Offs=0040EB  Size=000038  Align=00001  Fill=0000
+none.lib(udiv.o):
+    CODE              Offs=004123  Size=00004F  Align=00001  Fill=0000
+none.lib(umod.o):
+    CODE              Offs=004172  Size=000011  Align=00001  Fill=0000
+none.lib(zerobss.o):
+    CODE              Offs=004183  Size=000023  Align=00001  Fill=0000
+none.lib(zeropage.o):
+    ZEROPAGE          Offs=000000  Size=00001A  Align=00001  Fill=0000
+
+
+Segment list:
+-------------
+Name                   Start     End    Size  Align
+----------------------------------------------------
+ZEROPAGE              000000  000019  00001A  00001
+STARTUP               000700  00071B  00001C  00001
+CODE                  00071C  0048C1  0041A6  00001
+RODATA                0048C2  004A6F  0001AE  00001
+DATA                  004A70  0053C2  000953  00001
+ONCE                  0053C3  0053CE  00000C  00001
+BSS                   0053CF  0074B1  0020E3  00001
+
+
+Exports list by name:
+---------------------
+_EMem_int                 003E5C RLA    _FloppyReceveSerial       000A07 RLA    
+_FloppySendSerial         0009FD RLA    _FloppySetReceveSerial    000A36 RLA    
+_FloppySetSendSerial      000A1A RLA    _VDP_W_BLOCK_asm          003EF2 RLA    
+_VDP_W_REG                003E9B RLA    _VDP_W_VRAM               003ECC RLA    
+__AcciaAdd__              000470 REA    __BSS_RUN__               0053CF RLA    
+__BSS_SIZE__              0020E3 REA    __CONSTRUCTOR_COUNT__     000000 REA    
+__CONSTRUCTOR_TABLE__     00071C RLA    __DATA_LOAD__             004A70 RLA    
+__DATA_RUN__              004A70 RLA    __DATA_SIZE__             000953 REA    
+__DDRA__                  0004F3 REA    __DESTRUCTOR_COUNT__      000000 REA    
+__DESTRUCTOR_TABLE__      00071C RLA    __IO0PORTB__              000480 REA    
+__IO1ADDDR__              000490 REA    __IO1DDRA__               000493 REA    
+__IO1DDRB__               000492 REA    __IO1PORTB__              000490 REA    
+__PORTA__                 0004F1 REA    __RAM_SIZE__              007800 REA    
+__RAM_START__             000700 RLA    __STARTUP__               000001 REA    
+__VIDADD__                000433 REA    __hextab                  004A4D RLA    
+__longminstr              004A5D RLA    _abs                      00454E RLA    
+_getByteEMem              003E80 RLA    _getKeyCode               00076B RLA    
+_getKeyMap                00078D RLA    _getKeyMapShifted         00079C RLA    
+_interupt                 0016EF RLA    _isVDPIRQ                 0007BA RLA    
+_itoa                     004133 RLA    _ltoa                     00439B RLA    
+_main                     003BBB RLA    _putByteEMem              003E62 RLA    
+_setIrqErs                000771 RLA    _strcat                   00466D RLA    
+_strchr                   00469E RLA    _strcmp                   0046C5 RLA    
+_strcpy                   0046E6 RLA    _strtok                   004705 RLA    
+_waite                    0009EA RLA    addeq0sp                  003F5C RLA    
+addeqysp                  003F5E RLA    addysp                    003F6E RLA    
+addysp1                   003F6D RLA    aslax1                    003F7B RLA    
+aslax3                    003F83 RLA    aslaxy                    004612 RLA    
+asm_val_1                 0000FF REZ    asraxy                    003F98 RLA    
+axlong                    003FCD RLA    axulong                   003FD3 RLA    
+bnega                     003FDE RLA    booleq                    004498 RLA    
+boolge                    0044A9 RLA    boollt                    0044A1 RLA    
+boolne                    004492 RLA    booluge                   0044B9 RLA    
+copydata                  003FF4 RLA    decax1                    004021 RLA    
+decaxy                    004028 RLA    decsp1                    004031 RLA    
+decsp2                    00403A RLA    decsp3                    004047 RLA    
+decsp4                    004054 RLA    decsp6                    004061 RLA    
+decsp7                    00406E RLA    donelib                   003FE8 RLA    
+getlop                    004429 RLA    incax1                    0040BE RLA    
+incax2                    0040C5 RLA    incax3                    0040CC RLA    
+incax4                    0040D6 RLA    incax5                    0040D1 RLA    
+incaxy                    0040D8 RLA    inceaxy                   004285 RLA    
+incsp2                    0040E9 RLA    incsp3                    0040F7 RLA    
+incsp4                    0040FC RLA    incsp5                    004101 RLA    
+incsp6                    004106 RLA    incsp7                    00410B RLA    
+incsp8                    004110 RLA    initlib                   0053C3 RLA    
+laddeq                    0041B1 RLA    laddeqysp                 0041D8 RLA    
+ldax0sp                   004241 RLA    ldaxi                     004234 RLA    
+ldaxysp                   004243 RLA    ldeax0sp                  00424A RLA    
+ldeaxysp                  00424C RLA    leaa0sp                   004279 RLA    
+leaaxsp                   00427B RLA    lsubeqysp                 003D4A RLA    
+mul8x16                   004516 RLA    mul8x16a                  004520 RLA    
+negax                     004552 RLA    negeax                    0042F2 RLA    
+popa                      004560 RLA    popax                     0040E1 RLA    
+poplsargs                 004331 RLA    popptr1                   00456C RLA    
+popsargsudiv16            0045EB RLA    ptr1                      000008 RLZ    
+ptr2                      00000A RLZ    ptr3                      00000C RLZ    
+ptr4                      00000E RLZ    push0                     004590 RLA    
+push0ax                   004313 RLA    pusha                     00457E RLA    
+pusha0                    004592 RLA    pushax                    004594 RLA    
+pusheax                   004319 RLA    pushl0                    004310 RLA    
+pushw                     0045AA RLA    pushw0sp                  0045B9 RLA    
+pushwysp                  0045BB RLA    regbank                   000014 RLZ    
+regsave                   000004 RLZ    regswap2                  0045D5 RLA    
+shlax1                    003F7B RLA    shlax3                    003F83 RLA    
+shrax3                    00463E RLA    sp                        000000 RLZ    
+sreg                      000002 RLZ    staspidx                  00464C RLA    
+stax0sp                   004662 RLA    staxysp                   004664 RLA    
+steaxysp                  003D71 RLA    subeq0sp                  0047E5 RLA    
+subeqysp                  0047E7 RLA    subysp                    0047FA RLA    
+tmp1                      000010 RLZ    tmp2                      000011 RLZ    
+tmp3                      000012 RLZ    tmp4                      000013 RLZ    
+tosaddax                  003F42 RLA    tosaddeax                 003DF0 RLA    
+tosdiva0                  00407B RLA    tosdiveax                 004263 RLA    
+tosicmp                   004092 RLA    toslcmp                   0041F9 RLA    
+tosmoda0                  0044BE RLA    tosmulax                  0044CF RLA    
+tosmuleax                 00429C RLA    tossubax                  0047D2 RLA    
+tosudiv0ax                004418 RLA    tosudiva0                 00483F RLA    
+tosudivax                 004841 RLA    tosudiveax                00441E RLA    
+tosugeeax                 003DB1 RLA    tosulong                  004807 RLA    
+tosumod0ax                003DB7 RLA    tosumoda0                 00488E RLA    
+tosumodax                 004890 RLA    tosumula0                 004514 RLA    
+tosumuleax                00429C RLA    udiv16                    004850 RLA    
+udiv32                    00444D RLA    zerobss                   00489F RLA    
+
+
+
+Exports list by value:
+----------------------
+__DESTRUCTOR_COUNT__      000000 REA    sp                        000000 RLZ    
+__CONSTRUCTOR_COUNT__     000000 REA    __STARTUP__               000001 REA    
+sreg                      000002 RLZ    regsave                   000004 RLZ    
+ptr1                      000008 RLZ    ptr2                      00000A RLZ    
+ptr3                      00000C RLZ    ptr4                      00000E RLZ    
+tmp1                      000010 RLZ    tmp2                      000011 RLZ    
+tmp3                      000012 RLZ    tmp4                      000013 RLZ    
+regbank                   000014 RLZ    asm_val_1                 0000FF REZ    
+__VIDADD__                000433 REA    __AcciaAdd__              000470 REA    
+__IO0PORTB__              000480 REA    __IO1PORTB__              000490 REA    
+__IO1ADDDR__              000490 REA    __IO1DDRB__               000492 REA    
+__IO1DDRA__               000493 REA    __PORTA__                 0004F1 REA    
+__DDRA__                  0004F3 REA    __RAM_START__             000700 RLA    
+__CONSTRUCTOR_TABLE__     00071C RLA    __DESTRUCTOR_TABLE__      00071C RLA    
+_getKeyCode               00076B RLA    _setIrqErs                000771 RLA    
+_getKeyMap                00078D RLA    _getKeyMapShifted         00079C RLA    
+_isVDPIRQ                 0007BA RLA    __DATA_SIZE__             000953 REA    
+_waite                    0009EA RLA    _FloppySendSerial         0009FD RLA    
+_FloppyReceveSerial       000A07 RLA    _FloppySetSendSerial      000A1A RLA    
+_FloppySetReceveSerial    000A36 RLA    _interupt                 0016EF RLA    
+__BSS_SIZE__              0020E3 REA    _main                     003BBB RLA    
+lsubeqysp                 003D4A RLA    steaxysp                  003D71 RLA    
+tosugeeax                 003DB1 RLA    tosumod0ax                003DB7 RLA    
+tosaddeax                 003DF0 RLA    _EMem_int                 003E5C RLA    
+_putByteEMem              003E62 RLA    _getByteEMem              003E80 RLA    
+_VDP_W_REG                003E9B RLA    _VDP_W_VRAM               003ECC RLA    
+_VDP_W_BLOCK_asm          003EF2 RLA    tosaddax                  003F42 RLA    
+addeq0sp                  003F5C RLA    addeqysp                  003F5E RLA    
+addysp1                   003F6D RLA    addysp                    003F6E RLA    
+shlax1                    003F7B RLA    aslax1                    003F7B RLA    
+shlax3                    003F83 RLA    aslax3                    003F83 RLA    
+asraxy                    003F98 RLA    axlong                    003FCD RLA    
+axulong                   003FD3 RLA    bnega                     003FDE RLA    
+donelib                   003FE8 RLA    copydata                  003FF4 RLA    
+decax1                    004021 RLA    decaxy                    004028 RLA    
+decsp1                    004031 RLA    decsp2                    00403A RLA    
+decsp3                    004047 RLA    decsp4                    004054 RLA    
+decsp6                    004061 RLA    decsp7                    00406E RLA    
+tosdiva0                  00407B RLA    tosicmp                   004092 RLA    
+incax1                    0040BE RLA    incax2                    0040C5 RLA    
+incax3                    0040CC RLA    incax5                    0040D1 RLA    
+incax4                    0040D6 RLA    incaxy                    0040D8 RLA    
+popax                     0040E1 RLA    incsp2                    0040E9 RLA    
+incsp3                    0040F7 RLA    incsp4                    0040FC RLA    
+incsp5                    004101 RLA    incsp6                    004106 RLA    
+incsp7                    00410B RLA    incsp8                    004110 RLA    
+_itoa                     004133 RLA    laddeq                    0041B1 RLA    
+laddeqysp                 0041D8 RLA    toslcmp                   0041F9 RLA    
+ldaxi                     004234 RLA    ldax0sp                   004241 RLA    
+ldaxysp                   004243 RLA    ldeax0sp                  00424A RLA    
+ldeaxysp                  00424C RLA    tosdiveax                 004263 RLA    
+leaa0sp                   004279 RLA    leaaxsp                   00427B RLA    
+inceaxy                   004285 RLA    tosumuleax                00429C RLA    
+tosmuleax                 00429C RLA    negeax                    0042F2 RLA    
+pushl0                    004310 RLA    push0ax                   004313 RLA    
+pusheax                   004319 RLA    poplsargs                 004331 RLA    
+_ltoa                     00439B RLA    tosudiv0ax                004418 RLA    
+tosudiveax                00441E RLA    getlop                    004429 RLA    
+udiv32                    00444D RLA    boolne                    004492 RLA    
+booleq                    004498 RLA    boollt                    0044A1 RLA    
+boolge                    0044A9 RLA    booluge                   0044B9 RLA    
+tosmoda0                  0044BE RLA    tosmulax                  0044CF RLA    
+tosumula0                 004514 RLA    mul8x16                   004516 RLA    
+mul8x16a                  004520 RLA    _abs                      00454E RLA    
+negax                     004552 RLA    popa                      004560 RLA    
+popptr1                   00456C RLA    pusha                     00457E RLA    
+push0                     004590 RLA    pusha0                    004592 RLA    
+pushax                    004594 RLA    pushw                     0045AA RLA    
+pushw0sp                  0045B9 RLA    pushwysp                  0045BB RLA    
+regswap2                  0045D5 RLA    popsargsudiv16            0045EB RLA    
+aslaxy                    004612 RLA    shrax3                    00463E RLA    
+staspidx                  00464C RLA    stax0sp                   004662 RLA    
+staxysp                   004664 RLA    _strcat                   00466D RLA    
+_strchr                   00469E RLA    _strcmp                   0046C5 RLA    
+_strcpy                   0046E6 RLA    _strtok                   004705 RLA    
+tossubax                  0047D2 RLA    subeq0sp                  0047E5 RLA    
+subeqysp                  0047E7 RLA    subysp                    0047FA RLA    
+tosulong                  004807 RLA    tosudiva0                 00483F RLA    
+tosudivax                 004841 RLA    udiv16                    004850 RLA    
+tosumoda0                 00488E RLA    tosumodax                 004890 RLA    
+zerobss                   00489F RLA    __hextab                  004A4D RLA    
+__longminstr              004A5D RLA    __DATA_RUN__              004A70 RLA    
+__DATA_LOAD__             004A70 RLA    initlib                   0053C3 RLA    
+__BSS_RUN__               0053CF RLA    __RAM_SIZE__              007800 REA    
+
+
+
+Imports list:
+-------------
+_EMem_int (128k.o):
+    hello.o                   hello.s:99
+_FloppyReceveSerial (floppy.o):
+    hello.o                   hello.s:115
+_FloppySendSerial (floppy.o):
+    hello.o                   hello.s:114
+_FloppySetReceveSerial (floppy.o):
+    hello.o                   hello.s:112
+_FloppySetSendSerial (floppy.o):
+    hello.o                   hello.s:113
+_VDP_W_BLOCK_asm (VDP.o):
+    hello.o                   hello.s:26
+_VDP_W_REG (VDP.o):
+    hello.o                   hello.s:24
+_VDP_W_VRAM (VDP.o):
+    hello.o                   hello.s:25
+__AcciaAdd__ ([linker generated]):
+    ps2.o                     ps2.s:18
+__BSS_RUN__ ([linker generated]):
+    zerobss.o                 common/zerobss.s:8
+__BSS_SIZE__ ([linker generated]):
+    zerobss.o                 common/zerobss.s:8
+__CONSTRUCTOR_COUNT__ ([linker generated]):
+    condes.o                  runtime/condes.s:18
+__CONSTRUCTOR_TABLE__ ([linker generated]):
+    condes.o                  runtime/condes.s:18
+__DATA_LOAD__ ([linker generated]):
+    copydata.o                common/copydata.s:8
+__DATA_RUN__ ([linker generated]):
+    copydata.o                common/copydata.s:8
+__DATA_SIZE__ ([linker generated]):
+    copydata.o                common/copydata.s:8
+__DDRA__ ([linker generated]):
+    128k.o                    128k.s:1
+__DESTRUCTOR_COUNT__ ([linker generated]):
+    condes.o                  runtime/condes.s:19
+__DESTRUCTOR_TABLE__ ([linker generated]):
+    condes.o                  runtime/condes.s:19
+__IO0PORTB__ ([linker generated]):
+    ps2.o                     ps2.s:18
+__IO1ADDDR__ ([linker generated]):
+    floppy.o                  floppy.s:1
+__IO1DDRA__ ([linker generated]):
+    floppy.o                  floppy.s:1
+__IO1DDRB__ ([linker generated]):
+    ps2.o                     ps2.s:18
+__IO1PORTB__ ([linker generated]):
+    ps2.o                     ps2.s:18
+__PORTA__ ([linker generated]):
+    128k.o                    128k.s:1
+__RAM_SIZE__ ([linker generated]):
+    crt0.o                    crt0.s:11
+__RAM_START__ ([linker generated]):
+    crt0.o                    crt0.s:11
+__STARTUP__ (crt0.o):
+    hello.o                   hello.s:13
+__VIDADD__ ([linker generated]):
+    VDP.o                     VDP.s:9
+__hextab (_hextab.o):
+    ltoa.o                    common/ltoa.s:10
+    itoa.o                    common/itoa.s:10
+__longminstr (_longminstr.o):
+    ltoa.o                    common/ltoa.s:10
+_abs (negabs.o):
+    hello.o                   hello.s:18
+_getByteEMem (128k.o):
+    hello.o                   hello.s:98
+_getKeyCode (ps2.o):
+    hello.o                   hello.s:78
+_getKeyMap (ps2.o):
+    hello.o                   hello.s:79
+_getKeyMapShifted (ps2.o):
+    hello.o                   hello.s:80
+_interupt (hello.o):
+    ps2.o                     ps2.s:19
+_isVDPIRQ (ps2.o):
+    hello.o                   hello.s:100
+_itoa (itoa.o):
+    hello.o                   hello.s:19
+_ltoa (ltoa.o):
+    hello.o                   hello.s:20
+_main (hello.o):
+    crt0.o                    crt0.s:8
+_putByteEMem (128k.o):
+    hello.o                   hello.s:97
+_setIrqErs (ps2.o):
+    hello.o                   hello.s:77
+_strcat (strcat.o):
+    hello.o                   hello.s:14
+_strchr (strchr.o):
+    strtok.o                  ../libwrk/none/strtok.s:13
+_strcmp (strcmp.o):
+    hello.o                   hello.s:15
+_strcpy (strcpy.o):
+    hello.o                   hello.s:16
+_strtok (strtok.o):
+    hello.o                   hello.s:17
+_waite (floppy.o):
+    hello.o                   hello.s:116
+addeq0sp (addeqsp.o):
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+addeqysp (addeqsp.o):
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+addysp (addysp.o):
+    incsp8.o                  runtime/incsp8.s:8
+    incsp7.o                  runtime/incsp7.s:8
+    incsp6.o                  runtime/incsp6.s:8
+    incsp5.o                  runtime/incsp5.s:8
+    incsp4.o                  runtime/incsp4.s:8
+    incsp3.o                  runtime/incsp3.s:8
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+addysp1 (addysp.o):
+    sub.o                     runtime/sub.s:8
+    ludiv.o                   runtime/ludiv.s:9
+    lmul.o                    runtime/lmul.s:9
+    itoa.o                    common/itoa.s:9
+    FixforFixMath.o           cc65\libsrc\runtime\land.s:9
+aslax1 (aslax1.o):
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+aslax3 (aslax3.o):
+    hello.o                   hello.s:9357
+aslaxy (shl.o):
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+asm_val_1 (ps2.o):
+    VDP.o                     VDP.s:11
+asraxy (asr.o):
+    hello.o                   hello.s:9357
+axlong (axlong.o):
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+axulong (axlong.o):
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+bnega (bneg.o):
+    hello.o                   hello.s:9357
+booleq (makebool.o):
+    FixforFixMath.o           cc65\libsrc\runtime\leq.s:8
+    hello.o                   hello.s:9357
+boolge (makebool.o):
+    FixforFixMath.o           cc65\libsrc\runtime\lge.s:8
+boollt (makebool.o):
+    FixforFixMath.o           cc65\libsrc\runtime\llt.s:8
+boolne (makebool.o):
+    FixforFixMath.o           cc65\libsrc\runtime\lne.s:8
+booluge (makebool.o):
+    FixforFixMath.o           cc65\libsrc\runtime\luge.s:8
+copydata (copydata.o):
+    crt0.o                    crt0.s:13
+decax1 (decax1.o):
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+decaxy (decaxy.o):
+    hello.o                   hello.s:9357
+decsp1 (decsp1.o):
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+decsp2 (decsp2.o):
+    toslong.o                 runtime/toslong.s:8
+    hello.o                   hello.s:9357
+decsp3 (decsp3.o):
+    strtok.o                  ../libwrk/none/strtok.s:127
+decsp4 (decsp4.o):
+    lpush.o                   runtime/lpush.s:12
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+decsp6 (decsp6.o):
+    hello.o                   hello.s:9357
+decsp7 (decsp7.o):
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+donelib (condes.o):
+    crt0.o                    crt0.s:13
+getlop (ludiv.o):
+    lshelp.o                  runtime/lshelp.s:11
+    FixforFixMath.o           cc65\libsrc\runtime\lumod.s:9
+incax1 (incax1.o):
+    strtok.o                  ../libwrk/none/strtok.s:127
+incax2 (incax2.o):
+    hello.o                   hello.s:9357
+incax3 (incax3.o):
+    hello.o                   hello.s:9357
+incax4 (incaxy.o):
+    hello.o                   hello.s:9357
+incax5 (incax5.o):
+    hello.o                   hello.s:9357
+incaxy (incaxy.o):
+    incax5.o                  runtime/incax5.s:8
+    incax3.o                  runtime/incax3.s:8
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+inceaxy (linc.o):
+    hello.o                   hello.s:9357
+incsp2 (incsp2.o):
+    staspidx.o                runtime/staspidx.s:8
+    popptr1.o                 runtime/popptr1.s:8
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+incsp3 (incsp3.o):
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+incsp4 (incsp4.o):
+    lcmp.o                    runtime/lcmp.s:9
+    FixforFixMath.o           cc65\libsrc\runtime\lpop.s:9
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+incsp5 (incsp5.o):
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+incsp6 (incsp6.o):
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+incsp7 (incsp7.o):
+    strtok.o                  ../libwrk/none/strtok.s:127
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+incsp8 (incsp8.o):
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+initlib (condes.o):
+    crt0.o                    crt0.s:13
+laddeq (laddeq.o):
+    hello.o                   hello.s:9357
+laddeqysp (laddeqsp.o):
+    hello.o                   hello.s:9357
+ldax0sp (ldaxsp.o):
+    strtok.o                  ../libwrk/none/strtok.s:127
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+ldaxi (ldaxi.o):
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+ldaxysp (ldaxsp.o):
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+ldeax0sp (ldeaxysp.o):
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+ldeaxysp (ldeaxysp.o):
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+leaa0sp (leaaxsp.o):
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+leaaxsp (leaaxsp.o):
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+lsubeqysp (FixforFixMath.o):
+    hello.o                   hello.s:9357
+mul8x16 (mul8.o):
+    mul.o                     runtime/mul.s:8
+mul8x16a (mul8.o):
+    mul.o                     runtime/mul.s:8
+negax (negabs.o):
+    shelp.o                   runtime/shelp.s:11
+    mod.o                     runtime/mod.s:11
+    div.o                     runtime/div.s:11
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+negeax (lneg.o):
+    ltoa.o                    common/ltoa.s:9
+    ldiv.o                    runtime/ldiv.s:11
+    FixforFixMath.o           cc65\libsrc\runtime\lmod.s:11
+popa (popa.o):
+    VDP.o                     VDP.s:10
+    128k.o                    128k.s:2
+popax (incsp2.o):
+    strchr.o                  common/strchr.s:9
+    strcpy.o                  common/strcpy.s:8
+    strcat.o                  common/strcat.s:9
+    shl.o                     runtime/shl.s:15
+    shelp.o                   runtime/shelp.s:11
+    ltoa.o                    common/ltoa.s:9
+    asr.o                     runtime/asr.s:15
+    VDP.o                     VDP.s:10
+    ps2.o                     ps2.s:21
+poplsargs (lshelp.o):
+    ldiv.o                    runtime/ldiv.s:11
+    FixforFixMath.o           cc65\libsrc\runtime\lmod.s:11
+popptr1 (popptr1.o):
+    umod.o                    runtime/umod.s:8
+    udiv.o                    runtime/udiv.s:9
+    strcmp.o                  common/strcmp.s:8
+    mul8.o                    runtime/mul8.s:9
+    mul.o                     runtime/mul.s:9
+    ltoa.o                    common/ltoa.s:9
+popsargsudiv16 (shelp.o):
+    mod.o                     runtime/mod.s:11
+    div.o                     runtime/div.s:11
+ptr1 (zeropage.o):
+    strchr.o                  common/strchr.s:10
+    copydata.o                common/copydata.s:9
+    zerobss.o                 common/zerobss.s:9
+    udiv.o                    runtime/udiv.s:10
+    strcpy.o                  common/strcpy.s:9
+    strcmp.o                  common/strcmp.s:9
+    strcat.o                  common/strcat.s:10
+    staspidx.o                runtime/staspidx.s:9
+    shelp.o                   runtime/shelp.s:12
+    pushw.o                   runtime/pushw.s:9
+    popptr1.o                 runtime/popptr1.s:9
+    mul8.o                    runtime/mul8.s:10
+    mul.o                     runtime/mul.s:10
+    ludiv.o                   runtime/ludiv.s:10
+    ltoa.o                    common/ltoa.s:11
+    lshelp.o                  runtime/lshelp.s:12
+    lmul.o                    runtime/lmul.s:10
+    ldiv.o                    runtime/ldiv.s:12
+    ldaxi.o                   runtime/ldaxi.s:8
+    lcmp.o                    runtime/lcmp.s:10
+    laddeq.o                  runtime/laddeq.s:12
+    div.o                     runtime/div.s:12
+    VDP.o                     VDP.s:11
+    128k.o                    128k.s:3
+    FixforFixMath.o           cc65\libsrc\runtime\ldeaxi.s:8
+    hello.o                   hello.s:11
+    ps2.o                     ps2.s:22
+ptr2 (zeropage.o):
+    copydata.o                common/copydata.s:9
+    strcpy.o                  common/strcpy.s:9
+    strcmp.o                  common/strcmp.s:9
+    strcat.o                  common/strcat.s:10
+    ludiv.o                   runtime/ludiv.s:10
+    ltoa.o                    common/ltoa.s:11
+    itoa.o                    common/itoa.s:11
+    VDP.o                     VDP.s:11
+    FixforFixMath.o           cc65\libsrc\runtime\lumod.s:10
+    hello.o                   hello.s:11
+ptr3 (zeropage.o):
+    ludiv.o                   runtime/ludiv.s:10
+    ltoa.o                    common/ltoa.s:11
+    lshelp.o                  runtime/lshelp.s:12
+    lmul.o                    runtime/lmul.s:10
+    itoa.o                    common/itoa.s:11
+ptr4 (zeropage.o):
+    umod.o                    runtime/umod.s:9
+    udiv.o                    runtime/udiv.s:10
+    shelp.o                   runtime/shelp.s:12
+    mul8.o                    runtime/mul8.s:10
+    mul.o                     runtime/mul.s:10
+    ludiv.o                   runtime/ludiv.s:10
+    lshelp.o                  runtime/lshelp.s:12
+    lmul.o                    runtime/lmul.s:10
+    linc.o                    runtime/linc.s:8
+push0 (pushax.o):
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+push0ax (lpush.o):
+    hello.o                   hello.s:9357
+pusha (pusha.o):
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+pusha0 (pushax.o):
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+pushax (pushax.o):
+    strtok.o                  ../libwrk/none/strtok.s:127
+    pushw.o                   runtime/pushw.s:8
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+pusheax (lpush.o):
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+pushl0 (lpush.o):
+    hello.o                   hello.s:9357
+pushw (pushw.o):
+    hello.o                   hello.s:9357
+pushw0sp (pushwsp.o):
+    hello.o                   hello.s:9357
+pushwysp (pushwsp.o):
+    strtok.o                  ../libwrk/none/strtok.s:127
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+regbank (zeropage.o):
+    regswap2.o                runtime/regswap2.s:8
+    strtok.o                  ../libwrk/none/strtok.s:10
+regsave (zeropage.o):
+    hello.o                   hello.s:10
+regswap2 (regswap2.o):
+    strtok.o                  ../libwrk/none/strtok.s:127
+shlax1 (aslax1.o):
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+shlax3 (aslax3.o):
+    hello.o                   hello.s:9357
+shrax3 (shrax3.o):
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+sp (zeropage.o):
+    regswap2.o                runtime/regswap2.s:8
+    decsp3.o                  runtime/decsp3.s:8
+    toslong.o                 runtime/toslong.s:9
+    subysp.o                  runtime/subysp.s:9
+    subeqsp.o                 runtime/subeqsp.s:8
+    sub.o                     runtime/sub.s:9
+    strtok.o                  ../libwrk/none/strtok.s:10
+    staxsp.o                  runtime/staxsp.s:8
+    staspidx.o                runtime/staspidx.s:9
+    pushwsp.o                 runtime/pushwsp.s:8
+    pushax.o                  runtime/pushax.s:8
+    pusha.o                   runtime/pusha.s:8
+    popptr1.o                 runtime/popptr1.s:9
+    popa.o                    runtime/popa.s:8
+    ludiv.o                   runtime/ludiv.s:10
+    lpush.o                   runtime/lpush.s:13
+    lmul.o                    runtime/lmul.s:10
+    leaaxsp.o                 runtime/leaaxsp.s:8
+    ldeaxysp.o                runtime/ldeaxysp.s:12
+    ldaxsp.o                  runtime/ldaxsp.s:8
+    lcmp.o                    runtime/lcmp.s:10
+    laddeqsp.o                runtime/laddeqsp.s:8
+    itoa.o                    common/itoa.s:11
+    incsp2.o                  runtime/incsp2.s:8
+    icmp.o                    runtime/icmp.s:9
+    decsp7.o                  runtime/decsp7.s:8
+    decsp6.o                  runtime/decsp6.s:8
+    decsp4.o                  runtime/decsp4.s:8
+    decsp2.o                  runtime/decsp2.s:8
+    decsp1.o                  runtime/decsp1.s:8
+    crt0.o                    /usr/local/Cellar/cc65/2.19/share/cc65/asminc/zeropage.inc:11
+    addysp.o                  runtime/addysp.s:8
+    addeqsp.o                 runtime/addeqsp.s:8
+    add.o                     runtime/add.s:12
+    FixforFixMath.o           cc65\libsrc\runtime\lpop.s:10
+    hello.o                   hello.s:10
+sreg (zeropage.o):
+    umod.o                    runtime/umod.s:9
+    udiv.o                    runtime/udiv.s:10
+    mod.o                     runtime/mod.s:12
+    ludiv.o                   runtime/ludiv.s:10
+    ltoa.o                    common/ltoa.s:11
+    lshelp.o                  runtime/lshelp.s:12
+    lpush.o                   runtime/lpush.s:13
+    lneg.o                    runtime/lneg.s:11
+    lmul.o                    runtime/lmul.s:10
+    linc.o                    runtime/linc.s:8
+    ldiv.o                    runtime/ldiv.s:12
+    ldeaxysp.o                runtime/ldeaxysp.s:12
+    lcmp.o                    runtime/lcmp.s:10
+    laddeqsp.o                runtime/laddeqsp.s:8
+    laddeq.o                  runtime/laddeq.s:12
+    itoa.o                    common/itoa.s:11
+    icmp.o                    runtime/icmp.s:9
+    axlong.o                  runtime/axlong.s:9
+    FixforFixMath.o           cc65\libsrc\runtime\ldeaxi.s:8
+    hello.o                   hello.s:10
+staspidx (staspidx.o):
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+stax0sp (staxsp.o):
+    strtok.o                  ../libwrk/none/strtok.s:127
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+staxysp (staxsp.o):
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+steaxysp (FixforFixMath.o):
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+subeq0sp (subeqsp.o):
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+subeqysp (subeqsp.o):
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+subysp (subysp.o):
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+tmp1 (zeropage.o):
+    strchr.o                  common/strchr.s:10
+    copydata.o                common/copydata.s:9
+    staspidx.o                runtime/staspidx.s:9
+    shrax3.o                  runtime/shrax3.s:8
+    shl.o                     runtime/shl.s:16
+    shelp.o                   runtime/shelp.s:12
+    mul.o                     runtime/mul.s:10
+    mod.o                     runtime/mod.s:12
+    ltoa.o                    common/ltoa.s:11
+    lshelp.o                  runtime/lshelp.s:12
+    ldiv.o                    runtime/ldiv.s:12
+    itoa.o                    common/itoa.s:11
+    incaxy.o                  runtime/incaxy.s:8
+    div.o                     runtime/div.s:12
+    decaxy.o                  runtime/decaxy.s:8
+    asr.o                     runtime/asr.s:16
+    aslax3.o                  runtime/aslax3.s:8
+    aslax1.o                  runtime/aslax1.s:8
+    add.o                     runtime/add.s:12
+    VDP.o                     VDP.s:11
+    FixforFixMath.o           cc65\libsrc\runtime\aslax2.s:8
+    ps2.o                     ps2.s:22
+tmp2 (zeropage.o):
+    shelp.o                   runtime/shelp.s:12
+    lshelp.o                  runtime/lshelp.s:12
+    lmul.o                    runtime/lmul.s:10
+    ldiv.o                    runtime/ldiv.s:12
+    div.o                     runtime/div.s:12
+tmp3 (zeropage.o):
+    strcat.o                  common/strcat.s:10
+    ludiv.o                   runtime/ludiv.s:10
+    lmul.o                    runtime/lmul.s:10
+    FixforFixMath.o           cc65\libsrc\runtime\lumod.s:10
+tmp4 (zeropage.o):
+    ludiv.o                   runtime/ludiv.s:10
+    lmul.o                    runtime/lmul.s:10
+    FixforFixMath.o           cc65\libsrc\runtime\lumod.s:10
+tosaddax (add.o):
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+tosaddeax (FixforFixMath.o):
+    hello.o                   hello.s:9357
+tosdiva0 (div.o):
+    hello.o                   hello.s:9357
+tosdiveax (ldiv.o):
+    hello.o                   hello.s:9357
+tosicmp (icmp.o):
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+toslcmp (lcmp.o):
+    FixforFixMath.o           cc65\libsrc\runtime\leq.s:8
+tosmoda0 (mod.o):
+    hello.o                   hello.s:9357
+tosmulax (mul.o):
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+tosmuleax (lmul.o):
+    hello.o                   hello.s:9357
+tossubax (sub.o):
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+tosudiv0ax (ludiv.o):
+    hello.o                   hello.s:9357
+tosudiva0 (udiv.o):
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+tosudivax (udiv.o):
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+tosudiveax (ludiv.o):
+    hello.o                   hello.s:9357
+tosugeeax (FixforFixMath.o):
+    hello.o                   hello.s:9357
+tosulong (toslong.o):
+    hello.o                   hello.s:9357
+tosumod0ax (FixforFixMath.o):
+    hello.o                   hello.s:9357
+tosumoda0 (umod.o):
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+tosumodax (umod.o):
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+tosumula0 (mul8.o):
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+    hello.o                   hello.s:9357
+tosumuleax (lmul.o):
+    hello.o                   hello.s:9357
+udiv16 (udiv.o):
+    umod.o                    runtime/umod.s:8
+    shelp.o                   runtime/shelp.s:11
+udiv32 (ludiv.o):
+    ldiv.o                    runtime/ldiv.s:11
+    FixforFixMath.o           cc65\libsrc\runtime\lumod.s:9
+zerobss (zerobss.o):
+    crt0.o                    crt0.s:13
+
