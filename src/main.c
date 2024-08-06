@@ -8,6 +8,7 @@ uint8_t buffer1[512];
 
 void foo()
 {
+    int i = 1;
 }
 
 int main() 
